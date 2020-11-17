@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: ecommerce_api_production
-  username: ecommerce_api
-  password: <%= ENV['ECOMMERCE_API_DATABASE_PASSWORD'] %>
+  # database: ecommerce_api_production
+  database: <%= ENV['DATABASE_URL'] %>
+  # username: ecommerce_api
+  # password: <%= ENV['ECOMMERCE_API_DATABASE_PASSWORD'] %>
