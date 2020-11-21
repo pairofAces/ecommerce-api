@@ -1,24 +1,30 @@
-# README
+<h1>Electric-Commerce</h1>
+A web application engineered as an ecommerce website for electronics.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Demo
+![Electric-Commerce-Demo](https://media.giphy.com/media/CFFYSstj9rbcPWeUYW/giphy.gif)
 
-Things you may want to cover:
+# User Experience Guide
+<p>
+    Users can use this application on their own accord or refer to the user guide below.
+</p>
+<ul>
+    <li>User can navigate the homepage and review the available electronic merchandise.</li>
+    <li>User can click on "add to cart" button to add an item to the users cart.</li>
+    <li>User can maniplate the quantity of each merchandise from within the cart.</li>
+    <li>User can increase, decrease, and remove items from the cart.</li>
+    <li>User can have the cart set to 0 by clicking "clear cart".</li>
+<ul>
 
-* Ruby version
+# What I learned
+<ul>
+    <li>Creating a ruby on rails backend with data coming from Ebay's Browse API.</li>
+    <li>Gained working knowledge on how to use localStorage to store user cart information.</li>
+    <li>Gained working knowledge on creating ecommerce cart functionality.</li>
+</ul>
 
-* System dependencies
+# Sources
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<a href="https://developer.ebay.com/api-docs/buy/static/api-browse.html">Ebay's Browse API</a>
+<br>
+<a href="https://github.com/pairofAces/ecommerce-client">Front End Code</a>
